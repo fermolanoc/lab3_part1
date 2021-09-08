@@ -47,6 +47,7 @@ def convertSentenceToCamelCase(sentence):
 def main():
     display_banner()
 
+    print("Enter a sentence to convert to camelCase")
     # get user sentence
     sentence = input('Write any sentence: ')
 
